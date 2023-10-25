@@ -1,0 +1,5 @@
+WatAlternative
+Name=ResSim_RiverOnly
+AlignmentName=Stream Alignment
+ConditionId=3
+NextNodeIndex=0

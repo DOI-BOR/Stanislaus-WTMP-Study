@@ -1,0 +1,6 @@
+WatAlternative
+Name=ResSim_Prescribed
+Description=ResSim simulations of New Melones, Tulloch and the downstream Stanislaus river (including a river-representation of Goodwin Reservoir) to the San Joaquin confluence. Prescribed timeseries/operations.
+AlignmentName=Stream Alignment
+ConditionId=4
+NextNodeIndex=0

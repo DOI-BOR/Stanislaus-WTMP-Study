@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimulationGroup Name="Cal2006">
+  <Description />
+  <AnalysisPeriod>2006</AnalysisPeriod>
+  <Simulations>
+    <Simulation>
+      <Name>06-Cal2006</Name>
+      <Class>hec2.wat.model.WatSimulation</Class>
+    </Simulation>
+  </Simulations>
+  <ComputeTypes />
+</SimulationGroup>
+
