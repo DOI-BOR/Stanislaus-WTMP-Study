@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WatSimulation SimulationName="StanRivOnly_06-09-RivCal1" Description="" FPart="ResSim_Riv:RiverCal_1" HasComputed="true" ComputeError="false" Parent="StanRivOnly_06-09-RivCal1" LastComputedBy="benjamin" LastComputedDate="1684527818788" IsFrmSimulation="false">
+  <ModelAlternatives ModelAlternativeCount="1">
+    <ModelAlternative0 Program="ResSim" Name="RiverOnly" File="rss/RiverOnly.ralt">
+      <Description />
+      <LastComputeTime Date="19 May 2023, 20:23:38" />
+    </ModelAlternative0>
+  </ModelAlternatives>
+  <TimeWindowManager Class="hec2.plugin.timewindow.TimeWindowManagerImpl" />
+</WatSimulation>
+

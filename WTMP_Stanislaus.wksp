@@ -1,0 +1,68 @@
+WorkspaceName=WTMP_Stanislaus
+WorkspaceDescription=Models New Melones Dam and Lake, Tulloch Dam and Reservoir, and Goodwin Dam
+Version=1001
+AppVersion=4.0.1.05-Beta
+ModifiedTime=1698217725348
+UnitSystemID=1
+GmtOffset=-8
+Extents=6346994.361477366,6602617.612600305,2064529.8504674188,2242791.099813098
+
+CoordinateInfoBegin
+type=State Plane Coordinates
+units=U.S. Feet
+unitMult=1.0
+spheroid=GRS 1980(NAD83)
+StateZone=403
+CoordinateInfoEnd
+
+Grow Extents=true
+ManagerIndex=4559
+
+MapBegin
+Name=Stanislaus-NHD-flowline.shp
+Description=
+Path=maps/Stanislaus-NHD-flowline.shp
+Shown=true
+Class=hec.map.aishape.AiShapeMap
+MaxScaleValue=2147483647
+MinScaleValue=-2147483648
+ModifiedTime=1698217725348
+GlyphDataRecordSerialized=hec.map.aishape.AiShapeGlyphDataRecord,maps/Stanislaus-NHD-flowline.gdr
+MapEnd
+
+MapBegin
+Name=NM+TR-NHD-waterbody.shp
+Description=
+Path=maps/NM+TR-NHD-waterbody.shp
+Shown=true
+Class=hec.map.aishape.AiShapeMap
+MaxScaleValue=2147483647
+MinScaleValue=-2147483648
+ModifiedTime=1698217725348
+GlyphDataRecordSerialized=hec.map.aishape.AiShapeGlyphDataRecord,maps/NM+TR-NHD-waterbody.gdr
+MapEnd
+
+MapBegin
+Name=StanislausFlowLine.shp
+Description=
+Path=maps/StanislausFlowLine.shp
+Shown=true
+Class=hec.map.aishape.AiShapeMap
+MaxScaleValue=2147483647
+MinScaleValue=-2147483648
+ModifiedTime=1698217725348
+GlyphDataRecordSerialized=hec.map.aishape.AiShapeGlyphDataRecord,maps/StanislausFlowLine.gdr
+MapEnd
+
+ManagerProxyBegin
+Name=Stream Alignment
+Description=
+Path=stream.align
+Class=hec.clientapp.model.StreamAlignment
+Index=0
+ModifiedTime=9223372036854775807
+ManagerProxyEnd
+
+ManagerPosition=0:hec.map.streamAlignment.StreamAlignmentGlyph
+ManagerPosition=1:hec.watershed.client.StudySystemGlyph
+
