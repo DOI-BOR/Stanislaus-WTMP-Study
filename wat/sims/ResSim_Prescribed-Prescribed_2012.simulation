@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<WatSimulation SimulationName="ResSim_Prescribed" Description="" FPart="ResSim_Pre:2013" HasComputed="false" ComputeError="false" Parent="ResSim_Prescribed" IsFrmSimulation="false">
+<WatSimulation SimulationName="ResSim_Prescribed-Prescribed_2012" Description="" FPart="ResSim_Pre:2013" HasComputed="true" ComputeError="false" Parent="ResSim_Prescribed-Prescribed_2012" LastComputedBy="benjamin" LastComputedDate="1699934211767" IsFrmSimulation="false">
   <ModelAlternatives ModelAlternativeCount="2">
     <ModelAlternative0 Program="Scripting" Name="Pre-Process_ResSim_StanPO" File="scripting/Pre-Process_ResSim_StanPO.scAlt">
       <Description>
         <desc cnt="0" value="Pre-process DMS data for use by ResSim model alternatives" />
       </Description>
-      <LastComputeTime Date="31 December 1899, 24:00" />
+      <LastComputeTime Date="14 November 2023, 03:55:35" />
     </ModelAlternative0>
     <ModelAlternative1 Program="ResSim" Name="RSStanPO" File="rss/RSStanPO.ralt">
       <Description />
-      <LastComputeTime Date="31 December 1899, 24:00" />
+      <LastComputeTime Date="14 November 2023, 03:56:51" />
     </ModelAlternative1>
   </ModelAlternatives>
   <TimeWindowManager Class="hec2.plugin.timewindow.TimeWindowManagerImpl" />

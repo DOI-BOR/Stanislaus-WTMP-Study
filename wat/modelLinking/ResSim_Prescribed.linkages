@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelLinking>
+  <Name>
+    ResSim_Prescribed
+    <ModelAlternative Program="ResSim" Name="RSStanPO" File="rss/RSStanPO.ralt">
+      <Description />
+      <DataLocations>
+        <DataLocation Name="New Melones Stanislaus R Inflow" Class="hec2.model.DataLocation" DssPath="/USBR/NEW_MELONES_INFLOW/FLOW//1HOUR/GRAB2/" ComputeType="Computed" Model="DSS File" Parameter="Known Flow" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="NEW_MELONES_INFLOW" Class="hec2.model.DssDataLocation" DssPath="/USBR/NEW_MELONES_INFLOW/FLOW//1HOUR/GRAB2/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="New Melones Balance Flow" Class="hec2.model.DataLocation" DssPath="/NEW MELONES/BALANCE FLOW/FLOW//1WEEK/DERIVED/" ComputeType="Computed" Model="DSS File" Parameter="Known Flow" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="BALANCE FLOW" Class="hec2.model.DssDataLocation" DssPath="/NEW MELONES/BALANCE FLOW/FLOW//1WEEK/DERIVED/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Tulloch Balance Flow" Class="hec2.model.DataLocation" DssPath="/TULLOCH/BALANCE FLOW/FLOW//1WEEK/DERIVED/" ComputeType="Computed" Model="DSS File" Parameter="Known Flow" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="BALANCE FLOW" Class="hec2.model.DssDataLocation" DssPath="/TULLOCH/BALANCE FLOW/FLOW//1WEEK/DERIVED/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Stanislaus R at Orange Blossom Bridge Balance Flow" Class="hec2.model.DataLocation" DssPath="//ZEROS/FLOW//1HOUR//" ComputeType="Computed" Model="DSS File" Parameter="Known Flow" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="ZEROS" Class="hec2.model.DssDataLocation" DssPath="//ZEROS/FLOW//1HOUR//" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/New_Melones_and_Tulloch_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Stanislaus R at Ripon Balance Flow" Class="hec2.model.DataLocation" DssPath="/STANISLAUS/RIPON-BALANCE_UGSS_2DAY-1DAY_SHIFT/FLOW//1DAY/USGS/" ComputeType="Computed" Model="DSS File" Parameter="Known Flow" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="RIPON-BALANCE_UGSS_2DAY-1DAY_SHIFT" Class="hec2.model.DssDataLocation" DssPath="/STANISLAUS/RIPON-BALANCE_UGSS_2DAY-1DAY_SHIFT/FLOW//1DAY/USGS/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/Stanislaus_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Goodwin Flow Balance" Class="hec2.model.DataLocation" DssPath="/USBR/GOODWIN_DAM_BALANCE_FLOW/FLOW//1DAY/GRAB2-CALC/" ComputeType="Computed" Model="DSS File" Parameter="Known Flow" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GOODWIN_DAM_BALANCE_FLOW" Class="hec2.model.DssDataLocation" DssPath="/USBR/GOODWIN_DAM_BALANCE_FLOW/FLOW//1DAY/GRAB2-CALC/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Below Goodwin Dam Balance Flow" Class="hec2.model.DataLocation" DssPath="/USBR/STAN_R_BL_GOODWIN_DAM_BALANCE_FLOW/FLOW//1DAY/GRAB2-CALC/" ComputeType="Computed" Model="DSS File" Parameter="Known Flow" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="STAN_R_BL_GOODWIN_DAM_BALANCE_FLOW" Class="hec2.model.DssDataLocation" DssPath="/USBR/STAN_R_BL_GOODWIN_DAM_BALANCE_FLOW/FLOW//1DAY/GRAB2-CALC/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="New Melones Lake-Pool" Class="hec2.model.DataLocation" DssPath="/USBR/NEW_MELONES_NML_ELEV/ELEV//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Lookback Elevation" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="NEW_MELONES_NML_ELEV" Class="hec2.model.DssDataLocation" DssPath="/USBR/NEW_MELONES_NML_ELEV/ELEV//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="ELEV" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="New Melones Lake-Primary outlet" Class="hec2.model.DataLocation" DssPath="/USBR/NEW_MELONES_GEN_RELEASE/FLOW//1HOUR/GRAB2-MIN4/" ComputeType="Computed" Model="DSS File" Parameter="Lookback Release" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="NEW_MELONES_GEN_RELEASE" Class="hec2.model.DssDataLocation" DssPath="/USBR/NEW_MELONES_GEN_RELEASE/FLOW//1HOUR/GRAB2-MIN4/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="New Melones Lake-Low outlet" Class="hec2.model.DataLocation" DssPath="/USBR/NEW_MELONES_OUTLET_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Lookback Release" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="NEW_MELONES_OUTLET_RELEASE" Class="hec2.model.DssDataLocation" DssPath="/USBR/NEW_MELONES_OUTLET_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="New Melones Power Release" Class="hec2.model.DataLocation" DssPath="/USBR/NEW_MELONES_GEN_RELEASE/FLOW//1HOUR/GRAB2-MIN4/" ComputeType="Computed" Model="DSS File" Parameter="Input Time Series" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="NEW_MELONES_GEN_RELEASE" Class="hec2.model.DssDataLocation" DssPath="/USBR/NEW_MELONES_GEN_RELEASE/FLOW//1HOUR/GRAB2-MIN4/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="New Melones River Outlet Release" Class="hec2.model.DataLocation" DssPath="/USBR/NEW_MELONES_OUTLET_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Input Time Series" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="NEW_MELONES_OUTLET_RELEASE" Class="hec2.model.DssDataLocation" DssPath="/USBR/NEW_MELONES_OUTLET_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Tulloch Reservoir-Pool" Class="hec2.model.DataLocation" DssPath="/USBR/TULLOCH_TUL_ELEV/ELEV//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Lookback Elevation" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="TULLOCH_TUL_ELEV" Class="hec2.model.DssDataLocation" DssPath="/USBR/TULLOCH_TUL_ELEV/ELEV//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="ELEV" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Tulloch Reservoir-Gated Spillways" Class="hec2.model.DataLocation" DssPath="/USBR/TULLOCH_SPILLWAY_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Lookback Release" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="TULLOCH_SPILLWAY_RELEASE" Class="hec2.model.DssDataLocation" DssPath="/USBR/TULLOCH_SPILLWAY_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Tulloch Reservoir-Power Plant" Class="hec2.model.DataLocation" DssPath="/USBR/TULLOCH_GENERATION_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Lookback Release" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="TULLOCH_GENERATION_RELEASE" Class="hec2.model.DssDataLocation" DssPath="/USBR/TULLOCH_GENERATION_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Tulloch Reservoir-Low Outlets" Class="hec2.model.DataLocation" DssPath="/USBR/TULLOCH_CTRL_REGULATING_RELEASE/FLOW//1HOUR/GRAB2-INTERP1/" ComputeType="Computed" Model="DSS File" Parameter="Lookback Release" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="TULLOCH_CTRL_REGULATING_RELEASE" Class="hec2.model.DssDataLocation" DssPath="/USBR/TULLOCH_CTRL_REGULATING_RELEASE/FLOW//1HOUR/GRAB2-INTERP1/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Tulloch Spillway Release" Class="hec2.model.DataLocation" DssPath="/USBR/TULLOCH_SPILLWAY_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Input Time Series" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="TULLOCH_SPILLWAY_RELEASE" Class="hec2.model.DssDataLocation" DssPath="/USBR/TULLOCH_SPILLWAY_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Tulloch Power Release" Class="hec2.model.DataLocation" DssPath="/USBR/TULLOCH_GENERATION_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Input Time Series" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="TULLOCH_GENERATION_RELEASE" Class="hec2.model.DssDataLocation" DssPath="/USBR/TULLOCH_GENERATION_RELEASE/FLOW//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Tulloch River Outlet Release" Class="hec2.model.DataLocation" DssPath="/USBR/TULLOCH_CTRL_REGULATING_RELEASE/FLOW//1HOUR/GRAB2-INTERP1/" ComputeType="Computed" Model="DSS File" Parameter="Input Time Series" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="TULLOCH_CTRL_REGULATING_RELEASE" Class="hec2.model.DssDataLocation" DssPath="/USBR/TULLOCH_CTRL_REGULATING_RELEASE/FLOW//1HOUR/GRAB2-INTERP1/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Oakdale Canal-Cntrl" Class="hec2.model.DataLocation" DssPath="//ZEROS/FLOW//1HOUR//" ComputeType="Computed" Model="DSS File" Parameter="Lookback Diversion" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="ZEROS" Class="hec2.model.DssDataLocation" DssPath="//ZEROS/FLOW//1HOUR//" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/New_Melones_and_Tulloch_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="Oakdale Canal" Class="hec2.model.DataLocation" DssPath="//ZEROS/FLOW//1HOUR//" ComputeType="Computed" Model="DSS File" Parameter="Input Time Series" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="ZEROS" Class="hec2.model.DssDataLocation" DssPath="//ZEROS/FLOW//1HOUR//" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/New_Melones_and_Tulloch_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="South San Joaquin Canal-Cntrl" Class="hec2.model.DataLocation" DssPath="/USBR/GOODWIN_GDW_TOTAL_DIV/FLOW//1DAY/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Lookback Diversion" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GOODWIN_GDW_TOTAL_DIV" Class="hec2.model.DssDataLocation" DssPath="/USBR/GOODWIN_GDW_TOTAL_DIV/FLOW//1DAY/GRAB2-RAW/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="South San Joaquin Canal" Class="hec2.model.DataLocation" DssPath="/USBR/GOODWIN_GDW_TOTAL_DIV/FLOW//1DAY/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Input Time Series" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GOODWIN_GDW_TOTAL_DIV" Class="hec2.model.DssDataLocation" DssPath="/USBR/GOODWIN_GDW_TOTAL_DIV/FLOW//1DAY/GRAB2-RAW/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Lower Stanislaus Met-Air Temperature" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC-STAN_R/TEMP-AIR//1HOUR/GRAB2/" ComputeType="Computed" Model="DSS File" Parameter="Air Temperature" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC-STAN_R" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC-STAN_R/TEMP-AIR//1HOUR/GRAB2/" ComputeType="Computed" Parameter="TEMP-AIR" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Lower Stanislaus Met-Humidity" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC-STAN_R/RELHUM//1HOUR/GRAB2-DERIVED/" ComputeType="Computed" Model="DSS File" Parameter="Humidity" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC-STAN_R" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC-STAN_R/RELHUM//1HOUR/GRAB2-DERIVED/" ComputeType="Computed" Parameter="RELHUM" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Lower Stanislaus Met-Shortwave Radiation" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/" ComputeType="Computed" Model="DSS File" Parameter="Shortwave Radiation" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/" ComputeType="Computed" Parameter="IRRAD-SOLAR" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Lower Stanislaus Met-Cloudiness" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Cloudiness" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC-0-1" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/" ComputeType="Computed" Parameter="CLOUD" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Lower Stanislaus Met-Wind Speed" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Wind Speed" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="SPEED-WIND" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-New Melones Met-Air Temperature" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING/TEMP-AIR//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Air Temperature" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING/TEMP-AIR//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="TEMP-AIR" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-New Melones Met-Humidity" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING/%-RELHUM//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Humidity" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING/%-RELHUM//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="%-RELHUM" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-New Melones Met-Shortwave Radiation" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/" ComputeType="Computed" Model="DSS File" Parameter="Shortwave Radiation" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/" ComputeType="Computed" Parameter="IRRAD-SOLAR" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-New Melones Met-Cloudiness" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Cloudiness" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC-0-1" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/" ComputeType="Computed" Parameter="CLOUD" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-New Melones Met-Wind Speed" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Wind Speed" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="SPEED-WIND" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Tulloch Met-Air Temperature" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING/TEMP-AIR//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Air Temperature" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING/TEMP-AIR//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="TEMP-AIR" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Tulloch Met-Humidity" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING/%-RELHUM//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Humidity" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING/%-RELHUM//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="%-RELHUM" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Tulloch Met-Shortwave Radiation" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/" ComputeType="Computed" Model="DSS File" Parameter="Shortwave Radiation" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/" ComputeType="Computed" Parameter="IRRAD-SOLAR" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Tulloch Met-Cloudiness" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Cloudiness" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC-0-1" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/" ComputeType="Computed" Parameter="CLOUD" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Tulloch Met-Wind Speed" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Wind Speed" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="SPEED-WIND" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Upper Stanislaus Met-Air Temperature" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC-STAN_R/TEMP-AIR//1HOUR/GRAB2/" ComputeType="Computed" Model="DSS File" Parameter="Air Temperature" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC-STAN_R" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC-STAN_R/TEMP-AIR//1HOUR/GRAB2/" ComputeType="Computed" Parameter="TEMP-AIR" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Upper Stanislaus Met-Humidity" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC-STAN_R/RELHUM//1HOUR/GRAB2-DERIVED/" ComputeType="Computed" Model="DSS File" Parameter="Humidity" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC-STAN_R" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC-STAN_R/RELHUM//1HOUR/GRAB2-DERIVED/" ComputeType="Computed" Parameter="RELHUM" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Upper Stanislaus Met-Shortwave Radiation" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/" ComputeType="Computed" Model="DSS File" Parameter="Shortwave Radiation" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/" ComputeType="Computed" Parameter="IRRAD-SOLAR" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Upper Stanislaus Met-Cloudiness" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Cloudiness" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING_CALC-0-1" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/" ComputeType="Computed" Parameter="CLOUD" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Upper Stanislaus Met-Wind Speed" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/" ComputeType="Computed" Model="DSS File" Parameter="Wind Speed" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="GREEN_SPRING" Class="hec2.model.DssDataLocation" DssPath="/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/" ComputeType="Computed" Parameter="SPEED-WIND" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+        <DataLocation Name="WQ-Stanislaus R at New Melones - New Melones Stanislaus R Inflow" Class="hec2.model.DataLocation" Description="" DssPath="/USBR/NEW_MELONES_PH_NF_MF_FLOW_WEIGHTED/TEMP-WATER//1HOUR/GRAB2-DERIVED-2014-INTERP/" ComputeType="Computed" Model="DSS File" Parameter="Water Temperature" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="RSStanPO" Program="ResSim" />
+          <DownStreamLocation>
+            <DataLocation Name="NEW_MELONES_PH_NF_MF_FLOW_WEIGHTED" Class="hec2.model.DssDataLocation" DssPath="/USBR/NEW_MELONES_PH_NF_MF_FLOW_WEIGHTED/TEMP-WATER//1HOUR/GRAB2-DERIVED-2014-INTERP/" ComputeType="Computed" Parameter="TEMP-WATER" OutOfDate="false" PrevModelIndex="0">
+              <DssFile>shared/USBR_Stanislaus_grab2_DSSv6.dss</DssFile>
+            </DataLocation>
+          </DownStreamLocation>
+        </DataLocation>
+      </DataLocations>
+    </ModelAlternative>
+  </Name>
+</ModelLinking>
+

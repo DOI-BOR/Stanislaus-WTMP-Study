@@ -4,5 +4,6 @@
     <desc cnt="0" value="Pre-process DMS data for use by ResSim model alternatives" />
   </Description>
   <ScriptFile>scripts/Pre-Process_ResSim_StanPO.py</ScriptFile>
+  <TimeStep>1HOUR</TimeStep>
 </ScriptingAlt>
 
