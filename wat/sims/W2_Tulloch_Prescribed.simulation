@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WatSimulation SimulationName="W2 Tulloch Prescribed" Description="" FPart="W2 Tulloch:2005" HasComputed="false" ComputeError="false" Parent="W2 Tulloch Prescribed" IsFrmSimulation="false">
+  <ModelAlternatives ModelAlternativeCount="2">
+    <ModelAlternative0 Program="Scripting" Name="Pre-Process_W2_Stanislaus" File="scripting/Pre-Process_W2_Stanislaus.scAlt">
+      <Description />
+      <LastComputeTime Date="31 December 1899, 24:00" />
+    </ModelAlternative0>
+    <ModelAlternative1 Program="CeQualW2" Name="W2 Tulloch Prescribed" File="CeQual-W2/Tulloch/W2 Tulloch Prescribed/W2_Tulloch_Prescribed.w2Alt">
+      <Description />
+      <LastComputeTime Date="31 December 1899, 24:00" />
+    </ModelAlternative1>
+  </ModelAlternatives>
+  <TimeWindowManager Class="hec2.plugin.timewindow.TimeWindowManagerImpl" />
+</WatSimulation>
+

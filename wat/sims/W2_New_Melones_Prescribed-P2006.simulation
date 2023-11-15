@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WatSimulation SimulationName="W2 New Melones Prescribed-P2006" Description="" FPart="W2 New Mel:2005" HasComputed="false" ComputeError="true" Parent="W2 New Melones Prescribed-P2006" IsFrmSimulation="false">
+  <ModelAlternatives ModelAlternativeCount="2">
+    <ModelAlternative0 Program="Scripting" Name="Pre-Process_W2_Stanislaus" File="scripting/Pre-Process_W2_Stanislaus.scAlt">
+      <Description />
+      <LastComputeTime Date="15 November 2023, 01:50:00" />
+    </ModelAlternative0>
+    <ModelAlternative1 Program="CeQualW2" Name="W2 New Melones Prescribed" File="CeQual-W2/New Melones/W2 New Melones Prescribed/W2_New_Melones_Prescribed.w2Alt">
+      <Description />
+      <LastComputeTime Date="31 December 1899, 24:00:00" />
+    </ModelAlternative1>
+  </ModelAlternatives>
+  <TimeWindowManager Class="hec2.plugin.timewindow.TimeWindowManagerImpl" />
+</WatSimulation>
+

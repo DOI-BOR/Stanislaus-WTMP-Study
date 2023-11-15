@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelLinking>
+  <Name>
+    W2 New Melones Prescribed
+    <ModelAlternative Program="Scripting" Name="Pre-Process_W2_Stanislaus" File="scripting/Pre-Process_W2_Stanislaus.scAlt">
+      <Description />
+      <DataLocations />
+    </ModelAlternative>
+  </Name>
+</ModelLinking>
+

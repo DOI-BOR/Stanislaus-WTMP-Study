@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimulationGroup Name="P2005">
+  <Description />
+  <AnalysisPeriod>2005</AnalysisPeriod>
+  <Simulations>
+    <Simulation>
+      <Name>ResSim_Prescribed-P2005</Name>
+      <Class>hec2.wat.model.WatSimulation</Class>
+    </Simulation>
+    <Simulation>
+      <Name>W2 New Melones Prescribed-P2005</Name>
+      <Class>hec2.wat.model.WatSimulation</Class>
+      <IterationSettings>
+        <maxMember>0</maxMember>
+        <MembersToCompute>
+          <intArray Length="0" Step="10" />
+        </MembersToCompute>
+        <ModelAlternativeSettings />
+        <SensitivitySettings>
+          <PreCompute />
+          <PostCompute />
+        </SensitivitySettings>
+      </IterationSettings>
+      <PositionAnalysisSettings>
+        <maxMember>0</maxMember>
+        <MembersToCompute>
+          <intArray Length="0" Step="10" />
+        </MembersToCompute>
+        <ModelAlternativeSettings />
+      </PositionAnalysisSettings>
+    </Simulation>
+    <Simulation>
+      <Name>W2 Tulloch Prescribed-P2005</Name>
+      <Class>hec2.wat.model.WatSimulation</Class>
+    </Simulation>
+  </Simulations>
+  <ComputeTypes />
+</SimulationGroup>
+

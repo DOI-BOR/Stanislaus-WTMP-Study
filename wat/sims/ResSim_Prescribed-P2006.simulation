@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WatSimulation SimulationName="ResSim_Prescribed-P2006" Description="" FPart="ResSim_Pre:2013" HasComputed="false" ComputeError="false" Parent="ResSim_Prescribed-P2006" IsFrmSimulation="false">
+  <ModelAlternatives ModelAlternativeCount="2">
+    <ModelAlternative0 Program="Scripting" Name="Pre-Process_ResSim_StanPO" File="scripting/Pre-Process_ResSim_StanPO.scAlt">
+      <Description>
+        <desc cnt="0" value="Pre-process DMS data for use by ResSim model alternatives" />
+      </Description>
+      <LastComputeTime Date="31 December 1899, 24:00" />
+    </ModelAlternative0>
+    <ModelAlternative1 Program="ResSim" Name="RSStanPO" File="rss/RSStanPO.ralt">
+      <Description />
+      <LastComputeTime Date="31 December 1899, 24:00" />
+    </ModelAlternative1>
+  </ModelAlternatives>
+  <TimeWindowManager Class="hec2.plugin.timewindow.TimeWindowManagerImpl" />
+</WatSimulation>
+
