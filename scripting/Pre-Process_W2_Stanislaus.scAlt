@@ -2,5 +2,6 @@
 <ScriptingAlt Name="Pre-Process_W2_Stanislaus">
   <Description />
   <ScriptFile>scripts/Pre-Process_W2_Stanislaus.py</ScriptFile>
+  <TimeStep>1HOUR</TimeStep>
 </ScriptingAlt>
 

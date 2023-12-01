@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SimulationGroup Name="RivCal1">
   <Description />
-  <AnalysisPeriod>RiverCal_1</AnalysisPeriod>
   <Simulations>
     <Simulation>
       <Name>StanRivOnly_06-09-RivCal1</Name>

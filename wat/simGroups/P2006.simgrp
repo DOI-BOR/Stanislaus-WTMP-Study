@@ -51,6 +51,10 @@
         <ModelAlternativeSettings />
       </PositionAnalysisSettings>
     </Simulation>
+    <Simulation>
+      <Name>W2 NM-TUL Prescribed-P2006</Name>
+      <Class>hec2.wat.model.WatSimulation</Class>
+    </Simulation>
   </Simulations>
   <ComputeTypes />
 </SimulationGroup>

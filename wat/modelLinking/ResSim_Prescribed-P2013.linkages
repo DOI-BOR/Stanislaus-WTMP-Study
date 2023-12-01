@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModelLinking>
   <Name>
-    ResSim_Prescribed-Prescribed05-13
+    ResSim_Prescribed-P2013
     <ModelAlternative Program="Scripting" Name="Pre-Process_ResSim_StanPO" File="scripting/Pre-Process_ResSim_StanPO.scAlt">
       <Description>
         <desc cnt="0" value="Pre-process DMS data for use by ResSim model alternatives" />
@@ -182,7 +182,7 @@
         <DataLocation Name="Tulloch Power Release" Class="hec2.model.DataLocation" DssPath="/MR Stan.-Tulloch/TUL-Generation Release/Flow//1Hour/241.1.125.2.1/" ComputeType="Computed" Model="DSS File" Parameter="Input Time Series" OutOfDate="false" PrevModelIndex="0">
           <ModelAlternative Name="RSStanPO" Program="ResSim" />
           <DownStreamLocation>
-            <DataLocation Name="TUL-Generation Release" Class="hec2.model.DssDataLocation" DssPath="/MR Stan.-Tulloch/TUL-Generation Release/Flow//1Hour/241.1.125.2.1/" ComputeType="Computed" Parameter="Flow" OutOfDate="false" PrevModelIndex="0">
+            <DataLocation Name="TUL-Generation Release" Class="hec2.model.DssDataLocation" DssPath="/MR Stan.-Tulloch/TUL-Generation Release/Flow//1Hour/ResSim_PreProcess/" ComputeType="Computed" Parameter="Flow" OutOfDate="false" PrevModelIndex="0">
               <DssFile>shared/DMS_Stanislaus_ResSim_Pre-Process.dss</DssFile>
             </DataLocation>
           </DownStreamLocation>
@@ -190,7 +190,7 @@
         <DataLocation Name="Tulloch Reservoir-Power Plant" Class="hec2.model.DataLocation" DssPath="/MR Stan.-Tulloch/TUL-Generation Release/Flow//1Hour/241.1.125.2.1/" ComputeType="Computed" Model="DSS File" Parameter="Lookback Release" OutOfDate="false" PrevModelIndex="0">
           <ModelAlternative Name="RSStanPO" Program="ResSim" />
           <DownStreamLocation>
-            <DataLocation Name="TUL-Generation Release" Class="hec2.model.DssDataLocation" DssPath="/MR Stan.-Tulloch/TUL-Generation Release/Flow//1Hour/241.1.125.2.1/" ComputeType="Computed" Parameter="Flow" OutOfDate="false" PrevModelIndex="0">
+            <DataLocation Name="TUL-Generation Release" Class="hec2.model.DssDataLocation" DssPath="/MR Stan.-Tulloch/TUL-Generation Release/Flow//1Hour/ResSim_PreProcess/" ComputeType="Computed" Parameter="Flow" OutOfDate="false" PrevModelIndex="0">
               <DssFile>shared/DMS_Stanislaus_ResSim_Pre-Process.dss</DssFile>
             </DataLocation>
           </DownStreamLocation>

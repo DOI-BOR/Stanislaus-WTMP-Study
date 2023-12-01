@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimulationGroup Name="P2013">
+  <Description />
+  <AnalysisPeriod>2013</AnalysisPeriod>
+  <Simulations>
+    <Simulation>
+      <Name>ResSim_Prescribed-P2013</Name>
+      <Class>hec2.wat.model.WatSimulation</Class>
+    </Simulation>
+    <Simulation>
+      <Name>W2 NM-TUL Prescribed-P2013</Name>
+      <Class>hec2.wat.model.WatSimulation</Class>
+    </Simulation>
+  </Simulations>
+  <ComputeTypes />
+</SimulationGroup>
+

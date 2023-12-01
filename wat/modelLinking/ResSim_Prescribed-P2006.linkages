@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModelLinking>
   <Name>
-    ResSim_Prescribed-Prescribed05-13
+    ResSim_Prescribed-P2006
     <ModelAlternative Program="Scripting" Name="Pre-Process_ResSim_StanPO" File="scripting/Pre-Process_ResSim_StanPO.scAlt">
       <Description>
         <desc cnt="0" value="Pre-process DMS data for use by ResSim model alternatives" />
@@ -35,13 +35,8 @@
             </DataLocation>
           </DownStreamLocation>
         </DataLocation>
-        <DataLocation Name="New Melones Balance Flow" Class="hec2.model.DataLocation" DssPath="/NEW MELONES/BALANCE FLOW/FLOW//1Day/DERIVED/" ComputeType="Computed" Model="DSS File" Parameter="Known Flow" OutOfDate="false" PrevModelIndex="0">
+        <DataLocation Name="New Melones Balance Flow" Class="hec2.model.DataLocation" DssPath="/NEW MELONES/BALANCE FLOW/FLOW//1Day/DERIVED/" ComputeType="Computed" Model="" Parameter="Known Flow" OutOfDate="false" PrevModelIndex="0">
           <ModelAlternative Name="RSStanPO" Program="ResSim" />
-          <DownStreamLocation>
-            <DataLocation Name="BALANCE FLOW" Class="hec2.model.DssDataLocation" DssPath="/NEW MELONES/BALANCE FLOW/FLOW//1Day/DERIVED/" ComputeType="Computed" Parameter="FLOW" OutOfDate="false" PrevModelIndex="0">
-              <DssFile>shared/DMS_Stanislaus_ResSim_Pre-Process.dss</DssFile>
-            </DataLocation>
-          </DownStreamLocation>
         </DataLocation>
         <DataLocation Name="Tulloch Spillway Release" Class="hec2.model.DataLocation" DssPath="/MR Stan.-Tulloch/TUL-Spillway Release/Flow//1Hour/241.1.125.3.1/" ComputeType="Computed" Model="DSS File" Parameter="Input Time Series" OutOfDate="false" PrevModelIndex="0">
           <ModelAlternative Name="RSStanPO" Program="ResSim" />

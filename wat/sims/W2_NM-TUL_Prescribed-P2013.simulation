@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WatSimulation SimulationName="W2 NM-TUL Prescribed-P2013" Description="" FPart="W2 NM-TUL :2005" HasComputed="false" ComputeError="true" Parent="W2 NM-TUL Prescribed-P2013" IsFrmSimulation="false">
+  <ModelAlternatives ModelAlternativeCount="5">
+    <ModelAlternative0 Program="Scripting" Name="Pre-Process_W2_Stanislaus" File="scripting/Pre-Process_W2_Stanislaus.scAlt">
+      <Description />
+      <LastComputeTime Date="1 December 2023, 01:26:02" />
+    </ModelAlternative0>
+    <ModelAlternative1 Program="CeQualW2" Name="W2 New Melones Prescribed" File="CeQual-W2/New Melones/W2 New Melones Prescribed/W2_New_Melones_Prescribed.w2Alt">
+      <Description />
+      <LastComputeTime Date="31 December 1899, 24:00:00" />
+    </ModelAlternative1>
+    <ModelAlternative2 Program="CeQualW2" Name="W2 Tulloch Prescribed" File="CeQual-W2/Tulloch/W2 Tulloch Prescribed/W2_Tulloch_Prescribed.w2Alt">
+      <Description />
+      <LastComputeTime Date="1 December 2023, 01:24:35" />
+    </ModelAlternative2>
+    <ModelAlternative3 Program="Scripting" Name="Pre-Process_ResSim_StanPO" File="scripting/Pre-Process_ResSim_StanPO.scAlt">
+      <Description>
+        <desc cnt="0" value="Pre-process DMS data for use by ResSim model alternatives" />
+      </Description>
+      <LastComputeTime Date="1 December 2023, 01:24:38" />
+    </ModelAlternative3>
+    <ModelAlternative4 Program="ResSim" Name="RSStanRiv" File="rss/RSStanRiv.ralt">
+      <Description />
+      <LastComputeTime Date="31 December 1899, 24:00:00" />
+    </ModelAlternative4>
+  </ModelAlternatives>
+  <TimeWindowManager Class="hec2.plugin.timewindow.TimeWindowManagerImpl" />
+</WatSimulation>
+

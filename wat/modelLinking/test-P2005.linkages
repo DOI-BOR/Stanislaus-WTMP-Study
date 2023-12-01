@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModelLinking>
   <Name>
-    W2 New Melones Prescribed-P2005
+    test-P2005
     <ModelAlternative Program="CeQualW2" Name="W2 New Melones Prescribed" File="CeQual-W2/New Melones/W2 New Melones Prescribed/W2_New_Melones_Prescribed.w2Alt">
       <Description />
       <DataLocations>
@@ -33,7 +33,7 @@
         <DataLocation Name="Branch 1 Inflow" Class="hec2.model.DataLocation" DssPath="/W2:Br1_Tw.csv/Branch 1 Inflow/Temp-TIN//1HOUR/alt:ap:CeQualW2-Branch 1 Inflow/" ComputeType="Computed" Model="DSS File" Parameter="Temp-TIN" OutOfDate="false" PrevModelIndex="0">
           <ModelAlternative Name="W2 New Melones Prescribed" Program="CeQualW2" />
           <DownStreamLocation>
-            <DataLocation Name="NM_Inflow-Inflow Calc. WTemp" Class="hec2.model.DssDataLocation" DssPath="/MR Stan.-New Melones/NM_Inflow-Inflow Calc. WTemp/Temp-Water//1Hour/240.8.50.1.1/" ComputeType="Computed" Parameter="Temp-Water" OutOfDate="false" PrevModelIndex="0">
+            <DataLocation Name="NM_Inflow-Inflow Calc. WTemp" Class="hec2.model.DssDataLocation" DssPath="/MR Stan.-New Melones/NM_Inflow-Inflow Calc. WTemp/Temp-Water/01Dec2004/1Hour/240.8.50.1.1/" ComputeType="Computed" Parameter="Temp-Water" OutOfDate="false" PrevModelIndex="0">
               <DssFile>shared/DMS_StanislausHydroTS.dss</DssFile>
             </DataLocation>
           </DownStreamLocation>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModelLinking>
   <Name>
-    ResSim_Prescribed-Prescribed05-13
+    ResSim_Prescribed-P2014
     <ModelAlternative Program="Scripting" Name="Pre-Process_ResSim_StanPO" File="scripting/Pre-Process_ResSim_StanPO.scAlt">
       <Description>
         <desc cnt="0" value="Pre-process DMS data for use by ResSim model alternatives" />

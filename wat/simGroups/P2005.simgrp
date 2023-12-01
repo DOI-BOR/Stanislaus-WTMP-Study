@@ -33,6 +33,10 @@
       <Name>W2 Tulloch Prescribed-P2005</Name>
       <Class>hec2.wat.model.WatSimulation</Class>
     </Simulation>
+    <Simulation>
+      <Name>test-P2005</Name>
+      <Class>hec2.wat.model.WatSimulation</Class>
+    </Simulation>
   </Simulations>
   <ComputeTypes />
 </SimulationGroup>
