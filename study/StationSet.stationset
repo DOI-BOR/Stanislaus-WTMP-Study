@@ -16,9 +16,9 @@
       "type" : "Point",
       "coordinates" : [ 6547619.792549599, 2172628.7774161715 ]
     },
-    "labelPosition" : "EAST",
+    "latitude" : 0.0,
     "longitude" : 0.0,
-    "latitude" : 0.0
+    "labelPosition" : "EAST"
   }, {
     "type" : "Feature",
     "properties" : {
@@ -35,9 +35,9 @@
       "type" : "Point",
       "coordinates" : [ 6528175.583048126, 2146929.787235902 ]
     },
-    "labelPosition" : "EAST",
+    "latitude" : 0.0,
     "longitude" : 0.0,
-    "latitude" : 0.0
+    "labelPosition" : "EAST"
   }, {
     "type" : "Feature",
     "properties" : {
@@ -54,9 +54,9 @@
       "type" : "Point",
       "coordinates" : [ 6494046.236300783, 2122454.558492788 ]
     },
-    "labelPosition" : "EAST",
+    "latitude" : 0.0,
     "longitude" : 0.0,
-    "latitude" : 0.0
+    "labelPosition" : "EAST"
   }, {
     "type" : "Feature",
     "properties" : {
@@ -73,9 +73,9 @@
       "type" : "Point",
       "coordinates" : [ 6388394.832226342, 2099475.038172865 ]
     },
-    "labelPosition" : "EAST",
+    "latitude" : 0.0,
     "longitude" : 0.0,
-    "latitude" : 0.0
+    "labelPosition" : "EAST"
   } ],
   "description" : "",
   "id" : 0,
