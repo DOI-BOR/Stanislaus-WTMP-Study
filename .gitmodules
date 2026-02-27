@@ -1,21 +1,21 @@
 [submodule "shared"]
 	path = shared
-	url = https://gitlab.rmanet.app/RMA/usbr-water-quality/wat-studies/wtmp-demo-studies/WTMP_Stanislaus/shared.git
+	url = git@github.com:DOI-BOR/Stanislaus-WTMP-Shared.git
 [submodule "rss"]
 	path = rss
-	url = https://gitlab.rmanet.app/RMA/usbr-water-quality/wat-studies/wtmp-demo-studies/WTMP_Stanislaus/rss.git
+	url = git@github.com:DOI-BOR/Stanislaus-WTMP-RSS.git
 [submodule "reports"]
 	path = reports
-	url = https://gitlab.rmanet.app/RMA/usbr-water-quality/wat-studies/wtmp-demo-studies/WTMP_Stanislaus/reports.git
+	url = git@github.com:DOI-BOR/Stanislaus-WTMP-Reports.git
 [submodule "ras"]
 	path = ras
-	url = https://gitlab.rmanet.app/RMA/usbr-water-quality/wat-studies/wtmp-demo-studies/WTMP_Stanislaus/ras.git
+	url = git@github.com:DOI-BOR/Stanislaus-WTMP-RAS.git
 [submodule "cequal-w2"]
 	path = cequal-w2
-	url = https://gitlab.rmanet.app/RMA/usbr-water-quality/wat-studies/wtmp-demo-studies/WTMP_Stanislaus/cequal-w2.git
+	url = git@github.com:DOI-BOR/Stanislaus-WTMP-CEQUAL-W2.git
 [submodule "5q"]
 	path = 5q
-	url = https://gitlab.rmanet.app/RMA/usbr-water-quality/wat-studies/wtmp-demo-studies/WTMP_Stanislaus/5q.git
+	url = git@github.com:DOI-BOR/Stanislaus-WTMP-5Q.git
 [submodule "scripts"]
 	path = scripts
-	url = https://gitlab.rmanet.app/RMA/usbr-water-quality/wat-studies/wtmp-demo-studies/WTMP_Stanislaus/scripts.git
+	url = git@github.com:DOI-BOR/Stanislaus-WTMP-Scripts.git
