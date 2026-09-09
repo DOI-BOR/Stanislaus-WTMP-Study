@@ -3,7 +3,7 @@
   <ModelAlternatives ModelAlternativeCount="2">
     <ModelAlternative0 Program="Scripting" Name="Pre-Process_W2_Stanislaus" File="scripting/Pre-Process_W2_Stanislaus.scAlt">
       <Description />
-      <LastComputeTime Date="31 December 1899, 24:00:00" />
+      <LastComputeTime Date="31 December 1899, 24:00" />
     </ModelAlternative0>
     <ModelAlternative1 Program="CeQualW2" Name="W2 New Melones Prescribed" File="CeQual-W2/New Melones/W2 New Melones Prescribed/W2_New_Melones_Prescribed.w2Alt">
       <Description />
